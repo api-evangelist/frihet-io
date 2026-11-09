@@ -1,4 +1,4 @@
-# frihet-io
+# Frihet
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,159 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-frihet-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://frihet.io/
+Frihet provides an all‑in‑one business management platform for invoicing, expense tracking, tax handling, banking integration, CRM and more. It targets freelancers, self‑employed professionals and small‑to‑medium companies, offering a free forever tier and paid plans starting at €9 per month, all without requiring a credit card. The service is available in multiple languages and emphasizes simplicity and automation.
+
+**Areas:** Business Management · Invoicing · Expense Tracking · CRM · SaaS
+
+## Frihet on APIs.io
+
+Everything profiled for Frihet is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/frihet-io/](https://apis.io/providers/frihet-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (27)
+
+- [Frihet Activities API](https://apis.io/apis/frihet-io/frihet-io-activities-api/) — Immutable activity timeline for a client. System activities are auto-generated; manual activities can be created via API.
+- [Frihet Banking API](https://apis.io/apis/frihet-io/frihet-io-banking-api/) — Bank accounts, transactions, categorization, and read-only reconciliation helpers.
+- [Frihet Batch API](https://apis.io/apis/frihet-io/frihet-io-batch-api/) — Batch creation of resources (up to 50 items per request).
+- [Frihet Channels API](https://apis.io/apis/frihet-io/frihet-io-channels-api/) — Frihet Stay: Manage channel connections (iCal feeds) for calendar sync with OTAs.
+- [Frihet Clients API](https://apis.io/apis/frihet-io/frihet-io-clients-api/) — Manage your client database with contact details, tax IDs, and addresses.
+- [Frihet Contacts API](https://apis.io/apis/frihet-io/frihet-io-contacts-api/) — Contact persons associated with a client. Manage multiple contacts per client for CRM.
+- [Frihet Deposits API](https://apis.io/apis/frihet-io/frihet-io-deposits-api/) — Manage client deposits and prepayments. Apply deposits against invoices or process refunds.
+- [Frihet E Invoicing API](https://apis.io/apis/frihet-io/frihet-io-e-invoicing-api/) — EN16931-compliant e-invoicing export and B2G submission endpoints. Supports 9 formats (Facturae, XRechnung-CII/UBL, Factur-X, FatturaPA, PEPPOL-BIS-3,…
+- [Frihet Expenses API](https://apis.io/apis/frihet-io/frihet-io-expenses-api/) — Manage business expenses with categories, tax deductions, and receipt attachments.
+- [Frihet Gestoria API](https://apis.io/apis/frihet-io/frihet-io-gestoria-api/) — The Gestoria API from Frihet — 1 operation(s) for gestoria.
+- [Frihet Guests API](https://apis.io/apis/frihet-io/frihet-io-guests-api/) — Frihet Stay: Read compliance records for guest check-in (document verification, police reports).
+- [Frihet Intelligence API](https://apis.io/apis/frihet-io/frihet-io-intelligence-api/) — AI-optimized endpoints providing business context, monthly P&L, and quarterly tax figures in a single call.
+- [Frihet Inventory API](https://apis.io/apis/frihet-io/frihet-io-inventory-api/) — The Inventory API from Frihet — 3 operation(s) for inventory.
+- [Frihet Invoices API](https://apis.io/apis/frihet-io/frihet-io-invoices-api/) — Create, read, update, and delete invoices. Includes PDF generation, email sending, and payment tracking.
+- [Frihet Kitchen API](https://apis.io/apis/frihet-io/frihet-io-kitchen-api/) — The Kitchen API from Frihet — 5 operation(s) for kitchen.
+- [Frihet Notes API](https://apis.io/apis/frihet-io/frihet-io-notes-api/) — Free-form notes attached to a client.
+- [Frihet Pos API](https://apis.io/apis/frihet-io/frihet-io-pos-api/) — The Pos API from Frihet — 8 operation(s) for pos.
+- [Frihet Products API](https://apis.io/apis/frihet-io/frihet-io-products-api/) — Product and service catalog with pricing, tax rates, and SKUs.
+- [Frihet Properties API](https://apis.io/apis/frihet-io/frihet-io-properties-api/) — Frihet Stay: Manage rental properties with owner info, capacity, and licensing.
+- [Frihet Quotes API](https://apis.io/apis/frihet-io/frihet-io-quotes-api/) — Create and manage quotes with PDF generation and email delivery. Convert accepted quotes to invoices.
+- [Frihet Reservations API](https://apis.io/apis/frihet-io/frihet-io-reservations-api/) — Frihet Stay: Manage vacation rental reservations with guest info, dates, and compliance tracking.
+- [Frihet Search API](https://apis.io/apis/frihet-io/frihet-io-search-api/) — Read-only global search across Frihet business records.
+- [Frihet Stay API](https://apis.io/apis/frihet-io/frihet-io-stay-api/) — The Stay API from Frihet — 4 operation(s) for stay.
+- [Frihet Summary API](https://apis.io/apis/frihet-io/frihet-io-summary-api/) — Financial dashboard data including revenue, expenses, and profit aggregations.
+- [Frihet Team API](https://apis.io/apis/frihet-io/frihet-io-team-api/) — The Team API from Frihet — 4 operation(s) for team.
+- [Frihet Vendors API](https://apis.io/apis/frihet-io/frihet-io-vendors-api/) — Manage your vendor database with contact details, tax IDs, and addresses.
+- [Frihet Webhooks API](https://apis.io/apis/frihet-io/frihet-io-webhooks-api/) — CRUD endpoints for managing webhook subscriptions that receive real-time event notifications.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Frihet Io Agentic Access](https://apis.io/agentic-access/frihet-io/frihet-io-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [BusinessContext](https://apis.io/schemas/frihet-io/frihet-io-business-context/)
+- [CreditNoteResult](https://apis.io/schemas/frihet-io/frihet-io-credit-note-result/)
+- [ExpenseCreate](https://apis.io/schemas/frihet-io/frihet-io-expense-create/)
+- [InvoiceCreate](https://apis.io/schemas/frihet-io/frihet-io-invoice-create/)
+- [InvoiceUpdatePreconditions](https://apis.io/schemas/frihet-io/frihet-io-invoice-update-preconditions/)
+- [QuarterlySummary](https://apis.io/schemas/frihet-io/frihet-io-quarterly-summary/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Frihet Io Context](https://apis.io/jsonld/frihet-io/frihet-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Frihet API Rules](https://apis.io/rules/frihet-io/frihet-io-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Frihet Io Authentication](https://apis.io/security/frihet-io/frihet-io-authentication/)
+- [Frihet Io Domain Security](https://apis.io/security/frihet-io/frihet-io-domain-security/)
+- [Frihet Io Vulnerability Disclosure](https://apis.io/security/frihet-io/frihet-io-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Frihet Io Plans Pricing](https://apis.io/plans/frihet-io/frihet-io-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://frihet.io/)
+- [Documentation](https://docs.frihet.io/)
+- [API reference](https://docs.frihet.io/desarrolladores/api-rest.md)
+- [Pricing](https://www.frihet.io/en/pricing)
+- [Sign up](https://app.frihet.io/register?ref=header&utm_source=frihet_io&utm_medium=nav&utm_campaign=header)
+- [Support](https://www.frihet.io/es/help)
+- [Blog](https://www.frihet.io/en/blog)
+- [Security](https://www.frihet.io/es/security)
+- [Terms of service](https://www.frihet.io/en/terms)
+- [Privacy policy](https://www.frihet.io/en/privacy)
+- [GitHub](https://github.com/Frihet-io)
+
+## API Evangelist rating
+
+**Kin Score 63.9** — strong · rubric 0.27.0 · scored 2026-11-09
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 61.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 66.0 |
+| Access clarity | 73.2 |
+
+**Agent readiness 75.4** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | yes |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/frihet-io/](https://apis.io/providers/frihet-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Frihet: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/frihet-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
